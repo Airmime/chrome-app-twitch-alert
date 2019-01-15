@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/fontawesome.css">
+</head>
+<body>
+	<div class="box" id="app">
+		<div class="top">
+			<div class="title">
+				<h1><i class="fab fa-twitch"></i> <strong>Twitch</strong> Live</h1>
+			</div>
+
+			<div class="pic-preview">
+				<div class="pic-banner">
+					<a href="#" class="stream-link" target="_blank">
+						<img src="img/default_preview.jpg" alt="Preview" id="stream-preview">
+					</a>
+				</div>
+
+				<div class="pic-streamer-logo">
+					<a href="#" class="stream-link">
+						<img src="img/icon_128.png" id="stream-logo" alt="Streamer">
+					</a>
+					<h2>
+						-
+					</h2>
+				</div>
+
+				<div class="pic-streamer-name">
+					<a href="#" target="_blank" id="stream-name" class="stream-link"></a>
+				</div>
+
+				<div class="pic-streamer-status">
+					<div class="point" id="stream-status-point"></div>
+					<div class="status">
+						<p id="stream-status">
+							Offline
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="stream-info">
+				<div class="stream-viewers">
+					<p>
+						<span class="dark-font"><i class="far fa-eye"></i> viewers</span><br/>
+						<span id="stream-viewers">-</span>
+					</p>
+				</div>
+				<div class="stream-game">
+					<p>
+						<span class="dark-font"><i class="fas fa-gamepad"></i> Game</span><br/>
+						<span id="stream-game">-</span>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="content">
+			<div class="stream-title">
+				<p>
+					<span><i class="fas fa-play-circle"></i> Live</span><br/>
+					<a href="#" id="stream-title" class="stream-link" target="_blank">...</a>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/config.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
