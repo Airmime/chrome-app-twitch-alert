@@ -5,13 +5,11 @@ function loadCache(){
 		$("#stream-preview").attr("src",localStorage.stream_preview);
 	}
 
-	if (localStorage.stream_title != null) {
-		$("#stream-title").html(localStorage.stream_title);
+	if (localStorage.stream_logo != null) {
+		$("#stream-logo").attr("src",localStorage.stream_logo);
 	}
 
-	if (localStorage.stream_logo != null) {
-		$("#stream-logo").html(localStorage.stream_logo);
-	}
+	$(".stream-link").attr("href","https://www.twitch.tv/" + config.name);
 }
 
 function offlineStream(){
@@ -22,6 +20,10 @@ function offlineStream(){
 	$("#stream-status-point").removeClass("on");
 
 	chrome.browserAction.setBadgeText({text: ""});
+
+	if (localStorage.stream_logo != null) {
+		$("#stream-logo").attr("src",localStorage.stream_logo);
+	}
 }
 
 function onlineStream($data){
@@ -35,7 +37,6 @@ function onlineStream($data){
 	$("#stream-status-point").addClass("on");
 
 	localStorage.stream_preview = $data.stream.preview.large;
-	localStorage.stream_title = $data.stream.channel.status;
 	localStorage.stream_logo = $data.stream.channel.logo;
 }
 
