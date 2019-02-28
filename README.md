@@ -3,7 +3,7 @@
 ![picture](https://image.noelshack.com/fichiers/2019/03/4/1547763851-img.jpg)
 
 ## Informations
-Chrome application/extension for twitch streamers, allowing you to alert your community when you start a live, on Chrome browser. 
+Chrome application/extension for twitch streamers, allowing you to alert your community when you start a live, on their browsers. 
 
 ## Configuration
 First, you must configure the file js/config.js. To do this, modify the 'name' property by your Twitch nickname. After that, generate a Twitch ID client, using this URL -> [Generating and Setting a Twitch Client ID](https://docs.aws.amazon.com/lumberyard/latest/userguide/chatplay-generate-twitch-client-id.html) . Then, change the property 'clientID' by the identifier you just generated.
