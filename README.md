@@ -1,6 +1,6 @@
 # Chrome app/extension for twitch streamers
 
-![picture](https://image.noelshack.com/fichiers/2019/03/4/1547763851-img.jpg)
+![picture](https://nsa40.casimages.com/img/2019/12/09//191209104635429863.jpg)
 
 ## Informations
 Chrome application/extension for twitch streamers, allowing you to alert your community when you start a live, on their browsers. 
