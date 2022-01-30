@@ -1,4 +1,4 @@
-# Chrome app/extension for twitch streamers
+# Chrome app/extension for twitch streamers (no longer supported).
 
 ![picture](https://nsa40.casimages.com/img/2019/12/09//191209104635429863.jpg)
 
